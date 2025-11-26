@@ -60,6 +60,6 @@ Input Email:
 ## HTML Output:
 
 <div style="background:#66b2ff; padding:12px; border-radius:8px; color:white;">
-  Category: Delivery / Orders  
-  Reason: Mentions tracking, order status, and delivery timeline.
+ <p> Category: Delivery / Orders </p>
+  <p>Reason: Mentions tracking, order status, and delivery timeline.</p>
 </div>
