@@ -1,10 +1,10 @@
-## Inbox Triage Bot
+# Inbox Triage Bot
 
 Smart Email Categorization with HTML Highlights
 
 Inbox Triage Bot is an intelligent email-processing system that takes raw email text as input and automatically classifies it into well-defined categories. It returns HTML-formatted output with distinct background colors for each category, making it perfect for inbox dashboards, automation pipelines, and UI rendering.
 
-# Features
+## Features
 
 AI-powered categorization across multiple real-world email types.
 
@@ -16,7 +16,7 @@ Reasoning included (optional) for transparency and debugging.
 
 Lightweight, fast, and easy to integrate with any backend.
 
-# Categories & Their Color Highlights
+## Categories & Their Color Highlights
 Category	Color	Hex Code
 Work	Blue	#4d79ff
 Personal	Green	#66cc66
@@ -37,7 +37,7 @@ Each output block wraps the predicted category in a styled <div>:
   Reason: Detected formal tone and project-related context.
 </div>
 
-# How It Works
+## How It Works
 
 The model receives the email body as input.
 
@@ -51,13 +51,13 @@ You can directly plug this into any UI:
 
 document.getElementById("result").innerHTML = output;
 
-# Example Output
+## Example Output
 
 Input Email:
 
 "Hey, your package is arriving tomorrow. Track it using the link below."
 
-# HTML Output:
+## HTML Output:
 
 <div style="background:#66b2ff; padding:12px; border-radius:8px; color:white;">
   Category: Delivery / Orders  
